@@ -1,0 +1,32 @@
+.container-sobre {
+  background-color: rgb(0, 0, 0);
+}
+
+#sobre {
+  padding: 60px 0;
+  background-color: #000000; /* Cor de fundo mais clara */
+}
+
+#sobre .row {
+  align-items: center; /* Alinha a imagem e o texto verticalmente */
+}
+
+#sobre img {
+  border-radius: 8px; /* Bordas arredondadas para a imagem */
+  max-width: 100%; /* Garante que a imagem não exceda o tamanho do container */
+  height: auto; /* Mantém a proporção da imagem */
+  box-shadow: 0 4px 8px rgba(75, 75, 75, 0.2); /* Sombra sutil ao redor da imagem */
+}
+
+#sobre h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #7c7c7c; /* Cor do texto do título */
+}
+
+#sobre p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ffffff; /* Cor do texto do parágrafo */
+  margin-bottom: 0;
+}
